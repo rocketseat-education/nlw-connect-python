@@ -1,16 +1,11 @@
 from cerberus import Validator
 
-
 def events_creator_validator(request: any):
     body_validator = Validator({
         "data": {
             "type": "dict",
             "schema": {
-                "name": {
-                    "type": "string",
-                    "required": True,
-                    "empty": False
-                }
+                "name": { "type": "string", "required": True, "empty": False }
             }
         }
     })

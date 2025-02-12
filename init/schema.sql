@@ -22,4 +22,4 @@ CREATE TABLE Eventos_link (
     link TEXT,
     FOREIGN KEY (evento_id) REFERENCES Eventos (id) ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (inscrito_id) REFERENCES Inscritos (id) ON DELETE CASCADE ON UPDATE CASCADE
-)
+);

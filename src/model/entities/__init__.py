@@ -1,2 +1,3 @@
-from .eventos import Eventos # noqa
-from .inscritos import Inscritos # noqa
+from .eventos import Eventos
+from .inscritos import Inscritos
+from .eventos_link import EventosLink
